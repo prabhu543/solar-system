@@ -1,8 +1,12 @@
+/* :root{
+    --mercury_color:#454545;
+} */
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
 html,body{
     width: 100%;
@@ -148,14 +152,16 @@ html,body{
     right: 2.05em;
     width: 2em;
     height: 2em;
-    background: linear-gradient(to bottom,#666666,#999999);
+    background: linear-gradient(to bottom,#454545,#838383);
+    box-shadow: 0 0 1em #000;
 }
 .venus::before{
     top: 2.8em;
     left: 0em;
     width: 4em;
     height: 4em;
-    background: linear-gradient(to bottom,#ffc0cb,#ffffff);
+    background: linear-gradient(to bottom,#c9e4ca,#ffffff);
+    box-shadow: 0 0 1em #777;
 }
 .earth::before{
     top: 4em;
@@ -163,15 +169,15 @@ html,body{
     width:4.5em;
     height:4.5em;/*little bit changed here */
     background: linear-gradient(to bottom,#4567b7,#6495ed);
-    box-shadow: 0 0 1em rgba(183, 183, 183, 0.725);
+    box-shadow: 0 0 1em #333333;
 }
 .mars::before{
     bottom: 5em;
     left: 5em;
     width: 3em;
     height: 3em;
-    background: linear-gradient(to bottom,#ff9900,#ffc080);
-    box-shadow: 0 0 .8em rgb(217, 166, 56);
+    background: linear-gradient(to bottom,#ffc080,#ff9900);
+    box-shadow: 0 0 .8em #663300;
 }
 .moon::before{
     top: .9em;
@@ -185,32 +191,32 @@ html,body{
     right: 7em;
     width: 5.2em;
     height: 5.2em;
-    background:white;
-    box-shadow: 0 0 .8em rgb(252, 252, 252);
+    background:linear-gradient(to bottom, #ffc107, #ff9900);
+    box-shadow: 0 0 .8em #663300;
 }
 .saturn::before{
     top: 8em;
     right: 7em;
     width: 3.3em;
     height: 3.3em;
-    background:red ;
-    box-shadow: 0 0 .8em rgb(167, 37, 37);
+    background:linear-gradient(to bottom, #f7dc6f, #ffc107);
+    box-shadow: 0 0 .8em #663300;
 }
 .uranus::before{
     top: 7.8em;
     left: 9em;
     width: 3em;
     height: 3em;
-    background:rgb(153, 21, 168);
-    box-shadow: 0 0 .8em rgb(155, 71, 188);
+    background:linear-gradient(to bottom, #6495ed, #7ffd00);
+    box-shadow: 0 0 .8em #333333;
 }
 .neptune::before{
     bottom: 9em;
     left: 10em;
     width: 2.9em;
     height: 2.9em;
-    background: brown;
-    box-shadow: 0 0 .8em rgb(224, 103, 103);
+    background: linear-gradient(to bottom, #1e90ff , #6495ed);
+    box-shadow: 0 0 .8em #00008b;
 }
 
 
